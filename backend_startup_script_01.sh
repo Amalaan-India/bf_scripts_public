@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo "Starting linux_setup.sh, LSH"
 
 flog="LSH:" #Filename in log
