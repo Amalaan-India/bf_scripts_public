@@ -19,7 +19,7 @@ sudo apt-get clean
 
 logF "Installing Packages"
 sudo apt-get install -y docker.io nano dirmngr gnupg software-properties-common curl gcc build-essential p7zip-full nano git \
-    python3 python3-venv \
+    python3 python3-venv python3-dev python3-pip python3.*-venv libblas-dev liblapack-dev \
     llvm cifs-utils \
     pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev apt-transport-https ca-certificates
 
