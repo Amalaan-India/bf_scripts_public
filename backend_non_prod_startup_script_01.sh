@@ -58,3 +58,4 @@ sudo apt-get clean
 
 logF "Current IP"
 ip addr
+sudo shutdown -r now "Restarting to finish updates, upgrades and setup (Docker specifically)"
